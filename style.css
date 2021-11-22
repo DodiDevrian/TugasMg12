@@ -1,0 +1,74 @@
+body {
+    background-image: url("images/pattern.jpg");
+    width: 1080px;
+    margin: 10px auto;
+}
+
+main {
+    background-color: #ececec;
+    padding: 40px 20px;
+    border: 3px;
+    border-radius: 5px;
+}
+
+h1.textheader {
+    text-align: center;
+    font-size: 50px;
+}
+
+div#Profil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.pass-foto img {
+    width: 171px;
+    height: 254px;
+}
+
+div#edu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-edu img {
+    width: 205px;
+}
+
+div#skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-corel img {
+    width: 137px;
+}
+
+div#pengalaman-kerja {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-zoom img {
+    width: 145px;
+}
+
+.content-profil {
+    width: 750px;
+}
+
+table {
+    width: 100%;
+}
+
+td.label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+tr {height: 10px;}
+
+tbody {
+}

@@ -1,0 +1,149 @@
+body {
+    background-image: url("images/pattern.jpg");
+    width: 1080px;
+    margin: 10px auto;
+}
+
+main {
+    background-color: #ececec;
+    padding: 40px 20px;
+    border: 3px;
+    border-radius: 5px;
+}
+
+h1.textheader {
+    width: 760px;
+    text-align: center;
+    font-size: 50px;
+}
+
+hr.ul {
+    width: 500px;
+    border: solid 2px;
+}
+
+img {
+    width: 146px;
+    height: 157px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 750px;
+    margin: 0px auto;
+}
+
+.input-profil {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-profil label {
+    font-size: 16px;
+    margin: 4px 0px;
+}
+
+.input-profil input[type="text"] {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.input-profil select {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    margin: 52px 0px 0px 0px;
+}
+
+hr.ul-body {
+    width: 500px;
+    border: solid 2px;
+    margin-top: 40px;
+}
+
+.input-edu {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-job input[type="month"] {
+    width: 192px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.input-edu input[type="text"] {
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.exp-job {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.exp-job input[type="text"] {
+    width: 100%;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.exp-job label {
+    margin-right: 10px;
+}
+
+.input-edu label {
+    margin: 5px 0px 0px 0px;
+}
+
+input[type="month"] {
+    width: 192px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.submit input[type="submit"] {margin: auto;width: 85px;height: 30px;cursor: pointer;background: #ffbc00;border: none;border-radius: 5px;}
+
+.submit input[type="submit"]:hover {
+    background : yellow;
+}
+
+.submit {
+    display: flex;
+    width: 100%;
+}
